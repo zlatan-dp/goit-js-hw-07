@@ -55,7 +55,7 @@ function modalOpen(evt) {
     "keydown",
     (e) => {
       if (e.code !== "Escape") return;
-      console.log(e.code);
+      //console.log(e.code);
       instance.close();
     },
     { once: true }
